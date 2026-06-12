@@ -89,6 +89,15 @@
       "isActive": false,
       "createdAt": "2026-06-10T16:21:21.283Z",
       "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "cf1b712e-adf0-4cdb-bccb-d8ba12390221",
+      "name": "ацуа",
+      "country": "ауыв",
+      "birthYear": 2000,
+      "isActive": true,
+      "createdAt": "2026-06-12T11:28:05.209Z",
+      "updatedAt": "2026-06-12T11:28:05.209Z"
     }
   ],
   "albums": [

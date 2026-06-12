@@ -1,4 +1,6 @@
 'use client';
+
+import { Suspense } from 'react';
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import FileUpload from '@/app/components/FileUpload';
@@ -8,7 +10,8 @@ interface Artist {
   name: string;
 }
 
-export default function NewAlbumPage() {
+// Компонент, который использует useSearchParams
+function NewAlbumForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [artists, setArtists] = useState<Artist[]>([]);
@@ -66,5 +69,14 @@ export default function NewAlbumPage() {
         </button>
       </form>
     </div>
+  );
+}
+
+// Основной компонент страницы с Suspense
+export default function NewAlbumPage() {
+  return (
+    <Suspense fallback={<div className="text-center py-10">Загрузка...</div>}>
+      <NewAlbumForm />
+    </Suspense>
   );
 }
