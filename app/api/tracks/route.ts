@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { tracks, addTrack, findAlbum } from '@/lib/store';
-import crypto from 'crypto';
+import * as crypto from 'crypto';
 
 export async function GET(req: NextRequest) {
   const albumId = req.nextUrl.searchParams.get('albumId');

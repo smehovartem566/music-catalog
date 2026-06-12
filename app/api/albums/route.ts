@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { albums, addAlbum, findArtist } from '@/lib/store';
-import crypto from 'crypto';
+import * as crypto from 'crypto';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
