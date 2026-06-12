@@ -1,0 +1,270 @@
+{
+  "artists": [
+    {
+      "id": "1",
+      "name": "SHAMAN",
+      "country": "Россия",
+      "birthYear": 1991,
+      "isActive": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "2",
+      "name": "Любэ",
+      "country": "Россия",
+      "birthYear": 1989,
+      "isActive": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "3",
+      "name": "Олег Газманов",
+      "country": "Россия",
+      "birthYear": 1951,
+      "isActive": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "4",
+      "name": "Григорий Лепс",
+      "country": "Россия",
+      "birthYear": 1962,
+      "isActive": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "5",
+      "name": "Полина Гагарина",
+      "country": "Россия",
+      "birthYear": 1987,
+      "isActive": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "6",
+      "name": "Дима Билан",
+      "country": "Россия",
+      "birthYear": 1981,
+      "isActive": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "7",
+      "name": "Ленинград",
+      "country": "Россия",
+      "birthYear": 1997,
+      "isActive": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "8",
+      "name": "Король и Шут",
+      "country": "Россия",
+      "birthYear": 1988,
+      "isActive": false,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "9",
+      "name": "Владимир Высоцкий",
+      "country": "Россия",
+      "birthYear": 1938,
+      "isActive": false,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "10",
+      "name": "Михаил Круг",
+      "country": "Россия",
+      "birthYear": 1962,
+      "isActive": false,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "title": "Сделано в России",
+      "releaseYear": 2023,
+      "genre": "Pop",
+      "artistId": "1",
+      "coverPath": "/uploads/covers/Шаман-Я русский.jpg",
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "2",
+      "title": "Эскадрон",
+      "releaseYear": 1991,
+      "genre": "Pop",
+      "artistId": "3",
+      "coverPath": "/uploads/covers/Олег Газманов-Эскадрон.jpg",
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "3",
+      "title": "Комбат",
+      "releaseYear": 1995,
+      "genre": "Rock",
+      "artistId": "2",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "4",
+      "title": "Давай за...",
+      "releaseYear": 1998,
+      "genre": "Rock",
+      "artistId": "2",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "5",
+      "title": "Сделай шаг",
+      "releaseYear": 2002,
+      "genre": "Pop",
+      "artistId": "4",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "6",
+      "title": "Романы",
+      "releaseYear": 2016,
+      "genre": "Pop",
+      "artistId": "4",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "7",
+      "title": "Кукушка",
+      "releaseYear": 2015,
+      "genre": "Pop",
+      "artistId": "5",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "8",
+      "title": "Ночной гость",
+      "releaseYear": 2005,
+      "genre": "Pop",
+      "artistId": "5",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "9",
+      "title": "Пьяная любовь",
+      "releaseYear": 2017,
+      "genre": "Pop",
+      "artistId": "6",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "10",
+      "title": "Лесник",
+      "releaseYear": 1997,
+      "genre": "Rock",
+      "artistId": "8",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "11",
+      "title": "Прыгну со скалы",
+      "releaseYear": 2003,
+      "genre": "Rock",
+      "artistId": "8",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "12",
+      "title": "Владимирский централ",
+      "releaseYear": 1996,
+      "genre": "Chanson",
+      "artistId": "10",
+      "coverPath": null,
+      "isStudio": true,
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "1",
+      "title": "Я русский",
+      "albumId": "1",
+      "audioPath": "/uploads/audio/Шаман-Я русский.mp3",
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "2",
+      "title": "Встаем",
+      "albumId": "1",
+      "audioPath": "/uploads/audio/Шаман-Встаем.mp3",
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "3",
+      "title": "Мой бой",
+      "albumId": "1",
+      "audioPath": "/uploads/audio/Шаман-Мой бой.mp3",
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "4",
+      "title": "Эскадрон",
+      "albumId": "2",
+      "audioPath": "/uploads/audio/Олег Газманов-Эскадрон.mp3",
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    },
+    {
+      "id": "5",
+      "title": "Свежий ветер",
+      "albumId": "2",
+      "audioPath": "/uploads/audio/Олег Газманов-Свежий ветер.mp3",
+      "createdAt": "2026-06-10T16:21:21.283Z",
+      "updatedAt": "2026-06-10T16:21:21.283Z"
+    }
+  ]
+}
